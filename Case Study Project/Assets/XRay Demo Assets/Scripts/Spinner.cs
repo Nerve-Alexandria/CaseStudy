@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 public class Spinner : MonoBehaviour
 {
-    public Vector3 RotationPerSecond;
+	public Vector3 RotationPerSecond;
 
 	void Update ()
 	{
-        transform.Rotate(RotationPerSecond * Time.deltaTime);
+		transform.Rotate(RotationPerSecond * Time.deltaTime);
 	}
 }
